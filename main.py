@@ -49,6 +49,21 @@ if st.sidebar.button("Query 9"):
 if st.sidebar.button("Query 10"):
     st.header("The total revenue generated per year")
     st.table(query10())
+if st.sidebar.button("Query 11"):
+    st.header("The products that generate the highest revenue based on sale prices")
+    st.table(query11())
+if st.sidebar.button("Query 12"):
+    st.header("Compare year-over-year sales to identify growth or decline in certain months")
+    st.table(query12())
+if st.sidebar.button("Query 13"):
+    st.header(" Use functions like GROUP BY, HAVING, ROW_NUMBER(), and CASE WHEN to categorize and rank products by their revenue, profit margin, etc")
+    st.table(query13())
+if st.sidebar.button("Query 14"):
+    st.header("Query sales data by region to identify which areas are performing best")
+    st.table(query14())
+if st.sidebar.button("Query 15"):
+    st.header("Identify products with discounts greater than 20% and calculate the impact of discounts on sales")
+    st.table(query15())
 
 # My Query
 if st.sidebar.button("My Query 1"):
